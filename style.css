@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    color: white;
+    font-size: 3em;
+}
+
+.clock {
+    width: 60%;
+    height: 300px;
+    margin-top: 20%;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(251, 223, 212, 0.794) -2px 2px 8px 2px;
+}
+
+.clock h2 {
+    font-size: 8em;
+    letter-spacing: 20px;
+}
